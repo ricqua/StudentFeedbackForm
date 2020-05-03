@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');     /*connect this "Asap" font front fonts.google.com to this style sheet*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 2vh;
+    font-family: Asap, sans-serif;
+    color: black
+}
+
+body {
+    /* https://cssgradient.io/gradient-backgrounds/ */
+    background-image: linear-gradient(120deg, #cfd9df 0%, #e2ebf0 100%);
+    padding: 1vh 1vw;
+    
+}
+
+header > h1{
+    font-size: 4vh;
+}
+
+#logo{
+    position: absolute;
+    top: 2vh;
+    right: 1vw;
+    /* bottom: vh;
+    left: 0; */
+    height: 9vh;
+}
+
+#classInfoInput{
+    position: absolute;
+    top: 7vh;
+    right: 11vw;
+    /* bottom: 85vh; */
+    left: 1vw;
+}
+
+#classInfoInput > span {
+    margin: 0 0.5vw 0 0;
+}
+
+#classInfoInput > input {
+    margin: 0 1vw 0 0;
+    padding: 0.25vh 0.25vw;
+}
+
+#bookInput{
+    margin: 0 1vw 0 0;
+    padding: 0.6vh .5vw;
+}
+
+#unitInput{
+    width: 5vw;
+}
+
+#pageInput{
+    width: 5vw;
+}
+
+#bottomArea {
+    position: absolute;
+    top: 85vh;
+    right: 0;
+    bottom: 4vh;
+    left: 0;
+    /* border: 1px solid black; */
+    padding: 1vh 1vw;
+    
+}
+
+#bottomArea > span {
+    margin: 0 0.5vw 0 0;
+}
+
+footer {
+    position: absolute;
+    top: 93vh;
+    right: 50vw;
+    bottom: 2vh;
+    left: 0;
+    /* border: 1px solid black; */
+    margin: 1vh 1vw;
+}
+
+
+#feedbackLeftInput{
+    position: absolute;
+    top: 12vh;
+    right: 50vw;
+    bottom: 4vh;
+    left: 0;
+    /* border: 1px solid black; */
+    padding: 1vh 1vw;
+}
+
+#sendInput{
+    width: 15vw;
+    padding: .25vh 0.25vw;
+}
+
+#goalsInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 8vh;
+    resize: none;
+}
+
+#vocabInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 23vh;
+    resize: none;
+}
+
+#pronunciationInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 10vh;
+    resize: none;
+}
+
+#focusInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 10vh;
+    resize: none;
+}
+
+#achievementsInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 10vh;
+    resize: none;
+}
+
+
+#feedbackRightInput{
+    position: absolute;
+    top: 12vh;
+    right: 0;
+    bottom: 0vh;
+    left: 50vw;
+    /* border: 1px solid black; */
+    padding: 1vh 1vw;
+}
+
+#lastweekInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 8vh;
+    resize: none;
+}
+
+#errorcorrectionInput{
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 50.5vh;
+    resize: none;
+}
+
+#homeworkInput {
+    padding: 0.25vh 0.25vw;
+    width: 48vw;
+    height: 10vh;
+    resize: none;
+}
+
+#feedbackRightInput > button{
+    padding: 0.25vh 1vw;
+    margin: 1vh 2vw 0 0;
+}
