@@ -1,79 +1,95 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width = device-width, initial-scale = 1" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Student Feedback Form</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>Feedback Form</h1>
-        <img src="./images/image001.jpg" alt="" id="logo">
+      <h1>Feedback Form</h1>
+      <div class="berlitzLogo">
+        <img src="./images/Berlitz.svg" alt="" id="logo"/>
+      </div>
     </header>
 
     <div id="classInfoInput">
-        <span>Student:</span><input type="text" id="studentInput">
-        <span>Date:</span><input type="date" id="dateInput">
-        <span>Time:</span><input type="time" id="timeInput">
-        <span>Book:</span>
-        <select id="bookInput" name="bookInput">
-            <option value="SPA_BP1">SPA - Best practices 1</option>
-            <option value="SPA_BP2">SPA - Best practices 2</option>
-            <option value="SPA_BP3">SPA - Best practices 3</option>
-            <option value="SPA_BP4">SPA - Best practices 4</option>
-            <option value="Expressions">Expressions</option>
-            <option value="PowerPatterns">PowerPatterns</option>
-            <option value="Fluency">Fluency</option>
-        </select>
-        <span>Unit/Lesson:</span><input type="text" id="unitInput">
-        <span>Pages:</span><input type="text" id="pageInput">
+      <span>Student:</span><input type="text" id="studentInput" />
+      <span>Date:</span><input type="date" id="dateInput" /> <span>Time:</span
+      ><input type="time" id="timeInput" />
+      <!-- <span>Book:</span> -->
+      <!-- <select id="bookInput" name="bookInput">
+        <option value="SPA_BP1">SPA - Best practices 1</option>
+        <option value="SPA_BP2">SPA - Best practices 2</option>
+        <option value="SPA_BP3">SPA - Best practices 3</option>
+        <option value="SPA_BP4">SPA - Best practices 4</option>
+        <option value="Expressions">Expressions</option>
+        <option value="PowerPatterns">PowerPatterns</option>
+        <option value="Fluency">Fluency</option>
+      </select> -->
+      <span>Unit/Lesson:</span><input type="text" id="unitInput" />
+      <!-- <span>Pages:</span><input type="text" id="pageInput" /> -->
     </div>
 
-
-
     <div>
-        <div id="feedbackLeftInput">
-            <span>Goals of the Lesson:</span><textarea id="goalsInput"></textarea>
-            <span>New Vocabulary & Expressions:</span><textarea id="vocabInput"></textarea>
-            <span>Pronunciation:</span><textarea id="pronunciationInput"></textarea>
-            <span>Focus Ares for Improvement:</span><textarea id="focusInput"></textarea>
-            <span>Achievements & Improvements:</span><textarea id="achievementsInput"></textarea>
+      <div id="feedbackLeftInput">
+        <span>Goals of the Lesson:</span><textarea id="goalsInput"></textarea>
+        <span>New Vocabulary & Expressions:</span
+        ><textarea id="vocabInput"></textarea> <span>Pronunciation:</span
+        ><textarea id="pronunciationInput"></textarea>
+        <span>Focus Ares for Improvement:</span
+        ><textarea id="focusInput"></textarea>
+        <span>Achievements & Improvements:</span
+        ><textarea id="achievementsInput"></textarea>
+      </div>
+      <div id="feedbackRightInput">
+        <span>Last week:</span><textarea id="lastweekInput"></textarea>
+        <span>Error Correction / Feedback:</span
+        ><textarea id="errorcorrectionInput"></textarea> <span>Homework:</span
+        ><textarea id="homeworkInput"></textarea>
 
-        </div>
-        <div id="feedbackRightInput">
-            <span>Last week:</span><textarea id="lastweekInput"></textarea>
-            <span>Error Correction / Feedback:</span><textarea id="errorcorrectionInput"></textarea>
-            <span>Homework:</span><textarea id="homeworkInput"></textarea>
-
-            <!-- <button id="pdfButton">Save as .pdf</button> -->
-            <button id="txtButton">Save as .txt</button>
-            <!-- <button id="saveButton">Save to account</button> -->
-            <!-- <span>Send to:</span>  -->
-            <input type="text" placeholder="e.g.: student@gmail.com" id="sendInput">
-            <button id="sendButton">Send</button>
-        </div>
+        <!-- <button id="pdfButton">Save as .pdf</button> -->
+        <button id="txtButton">Save as .txt</button>
+        <!-- <button id="saveButton">Save to account</button> -->
+        <!-- <span>Send to:</span>  -->
+        <input
+          type="text"
+          placeholder="e.g.: student@gmail.com"
+          id="sendInput"
+        />
+        <button id="sendButton">Send</button>
+      </div>
     </div>
 
     <footer>
-        <span>SPEP Business English academy. 2020 Copyright protected. 010 1234 4568</span>
+      <span
+        >Berlitz - Language center. 2022 Copyright protected. 02-3453-4266</span
+      >
     </footer>
 
-
     <script src="app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

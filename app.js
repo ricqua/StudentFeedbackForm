@@ -39,9 +39,9 @@ txtButton.onclick = function saveTextAsFile(){
     var textToSave = "Student name: " + studentName.value + "\n"
                      + "Date: " + dateInput.value + "\n"
                      + "Time: " + timeInput.value + "\n"
-                     + "Book: " + bookInput.value + "\n"
+                    //  + "Book: " + bookInput.value + "\n"
                      + "Unit: " + unitInput.value + "\n"
-                     + "Page/s: " + pageInput.value + "\n\n"
+                    //  + "Page/s: " + pageInput.value + "\n\n"
 
                      + "Goals of the lesson: " + "\n" + goalsInput.value + "\n\n"
                      + "New Vocabulary & Expressions: " + "\n" + vocabInput.value + "\n\n"

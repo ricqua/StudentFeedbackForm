@@ -170,3 +170,21 @@ footer {
     padding: 0.25vh 1vw;
     margin: 1vh 2vw 0 0;
 }
+
+
+.berlitzLogo{
+    /* border: 1px solid red;
+    width: 20%;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: auto; */
+}
+
+.berlitzLogo > img {
+    /* position: relative; */
+    /* height: 50px; */
+    width: 250px;
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    /* height: 100%; */
+}
